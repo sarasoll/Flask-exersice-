@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <form action="/reg" method="post">
+        <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+        <button type="submit">Greet</button>
+    </form>
+    <h1 id="container" style="width:80%;margin-left:auto;margin-right:auto;">Register</h1>
+
+    <form id="container" style="width:80%;margin-left:auto;margin-right:auto;" action="/register" method="post">
+        <input autocomplete="yes" autofocus name="name" placeholder="Name" type="text">
+        <select name="sport">
+            <option disabled selected> Select </option>
+            <option> Nice 😏</option>
+            <option> Cool 🤓</option>
+            <option> Awesome! 😍</option>
+        </select>
+        <button type="submit">Gr8</button>
+    </form>
+{% endblock %}

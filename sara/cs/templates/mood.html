@@ -1,0 +1,20 @@
+<!--  This page is to show the data live from the regsteration page "don.html" //// + the Commants need to be in HTML form not PYTHON!!!! -->
+{% extends "lay.html" %}
+{% block body %}
+
+<table style="width:100%">
+ 
+    <ul>
+   <!--- you need to add the name of the page that you want to show the data in --->
+        {% for name in mood %}
+        <li>{{ name }} is Clicked on the Button {{ mood [name] }} </li>
+        {% endfor %}
+    </ul>
+    
+  
+    {% endblock %}
+    
+    
+    <!--- sport = mod
+sports = moood
+html = mood  -->

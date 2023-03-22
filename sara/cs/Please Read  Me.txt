@@ -1,0 +1,5 @@
+Hi This is me Soll,
+I want too add a small note for me to avoid gitting in trupple next time I want to build a small project in Flask,
+First I need to be shure that the main file of the project is split to two the APP.PY file and the ""templatets"" file, so the APP.PY can run... 
+Secend the layout.html need to be added to the rest of the pages as a {% extends 'layout.html' %} {% endblock %} {% block body %} so the code can be minmal,
+I added some nots that I remeber thrue the time that I am editing the code so thers a lots that I miss alredy... I'll keep writeing more instructions while I am compliting this project😉
